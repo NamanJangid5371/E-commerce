@@ -1,0 +1,30 @@
+
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "System Administrator",
+            "email": "admin@company.com",
+            "password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+            "role": "admin",
+            "department": "Administration",
+            "manager_id": null,
+            "created_at": "2026-08-11 14:41:27",
+            "active": true
+        },
+        {
+            "id": 2,
+            "name": "Kushal",
+            "email": "kushal@company.com",
+            "password": "4e16668266b1a6385c9c9633142c62b0004b8d35ddec0e99add114353f687e4f",
+            "role": "manager",
+            "department": "law",
+            "manager_id": null,
+            "created_at": "2026-08-11 15:10:42",
+            "active": false
+        }
+    ],
+    "next_id": 3
+
+
+}

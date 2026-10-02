@@ -1,0 +1,14 @@
+{
+  "name": "e-commerce",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --prefix avyora",
+    "dev:store": "npm run dev:store --prefix avyora",
+    "dev:admin": "npm run dev:admin --prefix avyora",
+    "dev:logistics": "npm run dev:logistics --prefix avyora",
+    "dev:all": "npm run dev:all --prefix avyora",
+    "build": "npm run build --prefix avyora",
+    "start": "npm run start --prefix avyora",
+    "lint": "npm run lint --prefix avyora"
+  }
+}

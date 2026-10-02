@@ -1,0 +1,1986 @@
+{
+  "catalog": [
+    {
+      "id": "p1",
+      "sku": "AV-RG-001",
+      "slug": "solenne-diamond-solitaire",
+      "name": "Solenne Diamond Solitaire",
+      "brand": "Avyora",
+      "category": "Rings",
+      "collection": "atelier",
+      "tags": [
+        "bridal",
+        "diamond",
+        "gold"
+      ],
+      "description": "A quiet solitaire set in 18KT yellow gold. The stone is held in a four-claw cathedral setting so light can move through it from every angle.",
+      "story": "Solenne is designed as a lifelong signature — proportioned for daily wear, certified, and built to be resized with care.",
+      "metal": "Gold",
+      "purity": "18KT",
+      "colour": "Yellow",
+      "stone": "Natural diamond",
+      "cut": "Round brilliant",
+      "clarity": "VS1",
+      "carat": "0.50 ct",
+      "weight": "3.2 g",
+      "dimensions": "Setting height 6.4 mm",
+      "makingCharge": 4200,
+      "taxNote": "Inclusive of making charges. GST extra as applicable at checkout.",
+      "images": [
+        "/products/ring-1.jpg",
+        "/products/ring-5.jpg",
+        "/products/ring-2.jpg",
+        "/products/ring-6.jpg"
+      ],
+      "lifestyleImage": "/products/life-1.jpg",
+      "certificateNumber": "IGI-88492011",
+      "certifiedBy": "IGI",
+      "warranty": "Lifetime manufacturing warranty · 1-year stone security",
+      "care": "Wipe with a soft lint-free cloth after wear. Store separately in the Avyora pouch. Avoid perfume, chlorinated water and abrasive cleaners. Professional polishing recommended once a year.",
+      "returnPolicy": "15-day exchange on unworn pieces with original hallmarks, tags and certificate. Custom and engraved pieces are final sale. Prepaid refunds are processed within 5–7 working days after QC.",
+      "seoTitle": "Solenne Diamond Solitaire Ring | Avyora",
+      "seoDescription": "18KT yellow gold solitaire with IGI-certified 0.50 ct round brilliant diamond.",
+      "featured": true,
+      "bestSeller": true,
+      "rating": 4.9,
+      "reviewCount": 48,
+      "reviews": [
+        {
+          "id": "p1-r1",
+          "author": "Ananya M.",
+          "rating": 5,
+          "title": "Quiet luxury, beautifully made",
+          "body": "The finish is exceptional and the weight feels honest. Packaging was museum-level.",
+          "date": "12 Jul 2026",
+          "verified": true,
+          "status": "visible"
+        },
+        {
+          "id": "p1-r2",
+          "author": "Riya S.",
+          "rating": 5,
+          "title": "Compliments on day one",
+          "body": "Arrived with hallmark and certificate. Sits perfectly — the kind of piece you forget you're wearing until someone notices.",
+          "date": "28 Jun 2026",
+          "verified": true,
+          "status": "visible"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "AV-RG-001-6-18Y",
+          "size": "12",
+          "metal": "Gold",
+          "purity": "18KT",
+          "colour": "Yellow",
+          "stock": 3,
+          "price": 128900,
+          "salePrice": 118900
+        },
+        {
+          "sku": "AV-RG-001-7-18Y",
+          "size": "14",
+          "metal": "Gold",
+          "purity": "18KT",
+          "colour": "Yellow",
+          "stock": 5,
+          "price": 128900,
+          "salePrice": 118900
+        },
+        {
+          "sku": "AV-RG-001-8-18Y",
+          "size": "16",
+          "metal": "Gold",
+          "purity": "18KT",
+          "colour": "Yellow",
+          "stock": 3,
+          "price": 129400,
+          "salePrice": 119400
+        },
+        {
+          "sku": "AV-RG-001-7-18W",
+          "size": "14",
+          "metal": "Gold",
+          "purity": "18KT",
+          "colour": "White",
+          "stock": 2,
+          "price": 131200
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "p2",
+      "sku": "AV-RG-014",
+      "slug": "lumen-halo-ring",
+      "name": "Lumen Halo Ring",
+      "brand": "Avyora",
+      "category": "Rings",
+      "collection": "celeste",
+      "tags": [
+        "halo",
+        "diamond",
+        "bridal"
+      ],
+      "description": "A luminous halo of micro-pavé around a central brilliant, set on a slender 18KT band.",
+      "story": "Lumen is for evenings and vows — brightness without volume.",
+      "metal": "Gold",
+      "purity": "18KT",
+      "colour": "White",
+      "stone": "Lab-grown diamond",
+      "cut": "Round brilliant",
+      "clarity": "VS",
+      "carat": "0.72 ct tw",
+      "weight": "3.8 g",
+      "dimensions": "Halo diameter 9.1 mm",
+      "makingCharge": 5100,
+      "taxNote": "Inclusive of making charges. GST extra as applicable at checkout.",
+      "images": [
+        "/products/ring-2.jpg",
+        "/products/ring-3.jpg",
+        "/products/ring-6.jpg",
+        "/products/ring-1.jpg"
+      ],
+      "certificateNumber": "IGI-99211408",
+      "certifiedBy": "IGI",
+      "warranty": "Lifetime manufacturing warranty",
+      "care": "Wipe with a soft lint-free cloth after wear. Store separately in the Avyora pouch. Avoid perfume, chlorinated water and abrasive cleaners. Professional polishing recommended once a year.",
+      "returnPolicy": "15-day exchange on unworn pieces with original hallmarks, tags and certificate. Custom and engraved pieces are final sale. Prepaid refunds are processed within 5–7 working days after QC.",
+      "seoTitle": "Lumen Halo Ring | Avyora",
+      "seoDescription": "18KT white gold halo ring with lab-grown diamonds.",
+      "bestSeller": true,
+      "rating": 4.8,
+      "reviewCount": 31,
+      "reviews": [
+        {
+          "id": "p2-r1",
+          "author": "Ananya M.",
+          "rating": 5,
+          "title": "Quiet luxury, beautifully made",
+          "body": "The finish is exceptional and the weight feels honest. Packaging was museum-level.",
+          "date": "12 Jul 2026",
+          "verified": true,
+          "status": "visible"
+        },
+        {
+          "id": "p2-r2",
+          "author": "Riya S.",
+          "rating": 5,
+          "title": "Compliments on day one",
+          "body": "Arrived with hallmark and certificate. Sits perfectly — the kind of piece you forget you're wearing until someone notices.",
+          "date": "28 Jun 2026",
+          "verified": true,
+          "status": "visible"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "AV-RG-014-14",
+          "size": "14",
+          "metal": "Gold",
+          "purity": "18KT",
+          "colour": "White",
+          "stock": 5,
+          "price": 96500,
+          "salePrice": 88900
+        },
+        {
+          "sku": "AV-RG-014-16",
+          "size": "16",
+          "metal": "Gold",
+          "purity": "18KT",
+          "colour": "White",
+          "stock": 4,
+          "price": 97200,
+          "salePrice": 89600
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "p3",
+      "sku": "AV-NK-008",
+      "slug": "aura-pearl-collar",
+      "name": "Aura Pearl Collar",
+      "brand": "Avyora",
+      "category": "Necklaces",
+      "collection": "atelier",
+      "tags": [
+        "pearl",
+        "gold",
+        "heritage"
+      ],
+      "description": "A graduated collar of cultured pearls on an 18KT clasp, finished with a discreet Avyora signature plate.",
+      "story": "Aura is a modern heirloom — ceremonial presence, everyday grace.",
+      "metal": "Gold",
+      "purity": "18KT",
+      "colour": "Yellow",
+      "stone": "Cultured freshwater pearl",
+      "weight": "28 g",
+      "dimensions": "Length 42 cm · pearls 6–10 mm",
+      "makingCharge": 6800,
+      "taxNote": "Inclusive of making charges. GST extra as applicable at checkout.",
+      "images": [
+        "/products/necklace-1.jpg",
+        "/products/necklace-4.jpg",
+        "/products/necklace-2.jpg",
+        "/products/necklace-5.jpg"
+      ],
+      "lifestyleImage": "/products/life-2.jpg",
+      "certificateNumber": "AVY-PEARL-2201",
+      "certifiedBy": "Avyora Authenticity",
+      "warranty": "2-year craftsmanship warranty",
+      "care": "Wipe with a soft lint-free cloth after wear. Store separately in the Avyora pouch. Avoid perfume, chlorinated water and abrasive cleaners. Professional polishing recommended once a year.",
+      "returnPolicy": "15-day exchange on unworn pieces with original hallmarks, tags and certificate. Custom and engraved pieces are final sale. Prepaid refunds are processed within 5–7 working days after QC.",
+      "seoTitle": "Aura Pearl Collar | Avyora",
+      "seoDescription": "Graduated cultured pearl collar with 18KT gold clasp.",
+      "featured": true,
+      "rating": 4.9,
+      "reviewCount": 22,
+      "reviews": [
+        {
+          "id": "p3-r1",
+          "author": "Ananya M.",
+          "rating": 5,
+          "title": "Quiet luxury, beautifully made",
+          "body": "The finish is exceptional and the weight feels honest. Packaging was museum-level.",
+          "date": "12 Jul 2026",
+          "verified": true,
+          "status": "visible"
+        },
+        {
+          "id": "p3-r2",
+          "author": "Riya S.",
+          "rating": 5,
+          "title": "Compliments on day one",
+          "body": "Arrived with hallmark and certificate. Sits perfectly — the kind of piece you forget you're wearing until someone notices.",
+          "date": "28 Jun 2026",
+          "verified": true,
+          "status": "visible"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "AV-NK-008-42",
+          "metal": "Gold",
+          "purity": "18KT",
+          "colour": "Yellow",
+          "stock": 7,
+          "price": 84500
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "p4",
+      "sku": "AV-NK-021",
+      "slug": "nocturne-tennis-necklace",
+      "name": "Nocturne Tennis Necklace",
+      "brand": "Avyora",
+      "category": "Necklaces",
+      "collection": "celeste",
+      "tags": [
+        "diamond",
+        "tennis",
+        "evening"
+      ],
+      "description": "A continuous line of matched brilliants in a flexible 18KT white gold rivière.",
+      "story": "Nocturne is light, worn. Engineered to drape, never stiffen.",
+      "metal": "Gold",
+      "purity": "18KT",
+      "colour": "White",
+      "stone": "Lab-grown diamond",
+      "cut": "Round brilliant",
+      "clarity": "VS",
+      "carat": "3.20 ct tw",
+      "weight": "16.4 g",
+      "dimensions": "Length 40 cm",
+      "makingCharge": 12400,
+      "taxNote": "Inclusive of making charges. GST extra as applicable at checkout.",
+      "images": [
+        "/products/necklace-2.jpg",
+        "/products/necklace-3.jpg",
+        "/products/necklace-5.jpg",
+        "/products/necklace-1.jpg"
+      ],
+      "certificateNumber": "IGI-11028455",
+      "certifiedBy": "IGI",
+      "warranty": "Lifetime manufacturing warranty",
+      "care": "Wipe with a soft lint-free cloth after wear. Store separately in the Avyora pouch. Avoid perfume, chlorinated water and abrasive cleaners. Professional polishing recommended once a year.",
+      "returnPolicy": "15-day exchange on unworn pieces with original hallmarks, tags and certificate. Custom and engraved pieces are final sale. Prepaid refunds are processed within 5–7 working days after QC.",
+      "seoTitle": "Nocturne Tennis Necklace | Avyora",
+      "seoDescription": "18KT white gold tennis necklace with 3.20 ct lab-grown diamonds.",
+      "featured": true,
+      "newArrival": true,
+      "rating": 5,
+      "reviewCount": 14,
+      "reviews": [
+        {
+          "id": "p4-r1",
+          "author": "Ananya M.",
+          "rating": 5,
+          "title": "Quiet luxury, beautifully made",
+          "body": "The finish is exceptional and the weight feels honest. Packaging was museum-level.",
+          "date": "12 Jul 2026",
+          "verified": true,
+          "status": "visible"
+        },
+        {
+          "id": "p4-r2",
+          "author": "Riya S.",
+          "rating": 5,
+          "title": "Compliments on day one",
+          "body": "Arrived with hallmark and certificate. Sits perfectly — the kind of piece you forget you're wearing until someone notices.",
+          "date": "28 Jun 2026",
+          "verified": true,
+          "status": "visible"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "AV-NK-021-40",
+          "metal": "Gold",
+          "purity": "18KT",
+          "colour": "White",
+          "stock": 2,
+          "price": 248000,
+          "salePrice": 229000
+        },
+        {
+          "sku": "AV-NK-021-45",
+          "metal": "Gold",
+          "purity": "18KT",
+          "colour": "White",
+          "stock": 2,
+          "price": 268000,
+          "salePrice": 249000
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "p5",
+      "sku": "AV-ER-003",
+      "slug": "iris-drop-earrings",
+      "name": "Iris Drop Earrings",
+      "brand": "Avyora",
+      "category": "Earrings",
+      "collection": "flora",
+      "tags": [
+        "drop",
+        "gold",
+        "everyday"
+      ],
+      "description": "Sculpted petals in 14KT gold, moving with a measured swing. Lightweight clips optional on request.",
+      "story": "Named for the first bloom in the Avyora garden sketches.",
+      "metal": "Gold",
+      "purity": "14KT",
+      "colour": "Yellow",
+      "weight": "4.1 g",
+      "dimensions": "Drop 28 mm",
+      "makingCharge": 2800,
+      "taxNote": "Inclusive of making charges. GST extra as applicable at checkout.",
+      "images": [
+        "/products/earring-1.jpg",
+        "/products/earring-2.jpg",
+        "/products/earring-3.jpg",
+        "/products/earring-4.jpg"
+      ],
+      "certificateNumber": "BIS-HALL-4412",
+      "certifiedBy": "BIS Hallmark",
+      "warranty": "Lifetime manufacturing warranty",
+      "care": "Wipe with a soft lint-free cloth after wear. Store separately in the Avyora pouch. Avoid perfume, chlorinated water and abrasive cleaners. Professional polishing recommended once a year.",
+      "returnPolicy": "15-day exchange on unworn pieces with original hallmarks, tags and certificate. Custom and engraved pieces are final sale. Prepaid refunds are processed within 5–7 working days after QC.",
+      "seoTitle": "Iris Drop Earrings | Avyora",
+      "seoDescription": "14KT gold sculpted drop earrings from the Flora collection.",
+      "bestSeller": true,
+      "newArrival": true,
+      "rating": 4.7,
+      "reviewCount": 64,
+      "reviews": [
+        {
+          "id": "p5-r1",
+          "author": "Ananya M.",
+          "rating": 5,
+          "title": "Quiet luxury, beautifully made",
+          "body": "The finish is exceptional and the weight feels honest. Packaging was museum-level.",
+          "date": "12 Jul 2026",
+          "verified": true,
+          "status": "visible"
+        },
+        {
+          "id": "p5-r2",
+          "author": "Riya S.",
+          "rating": 5,
+          "title": "Compliments on day one",
+          "body": "Arrived with hallmark and certificate. Sits perfectly — the kind of piece you forget you're wearing until someone notices.",
+          "date": "28 Jun 2026",
+          "verified": true,
+          "status": "visible"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "AV-ER-003-14Y",
+          "metal": "Gold",
+          "purity": "14KT",
+          "colour": "Yellow",
+          "stock": 12,
+          "price": 28600
+        },
+        {
+          "sku": "AV-ER-003-14R",
+          "metal": "Gold",
+          "purity": "14KT",
+          "colour": "Rose",
+          "stock": 8,
+          "price": 29200
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "p6",
+      "sku": "AV-ER-019",
+      "slug": "aster-diamond-studs",
+      "name": "Aster Diamond Studs",
+      "brand": "Avyora",
+      "category": "Earrings",
+      "collection": "celeste",
+      "tags": [
+        "studs",
+        "diamond",
+        "everyday"
+      ],
+      "description": "A pair of matched round brilliants in a low-profile 18KT basket.",
+      "story": "The piece you never take off. Secure butterfly backs, comfort-fit.",
+      "metal": "Gold",
+      "purity": "18KT",
+      "colour": "Yellow",
+      "stone": "Natural diamond",
+      "cut": "Round brilliant",
+      "clarity": "SI1",
+      "carat": "0.30 ct tw",
+      "weight": "1.8 g",
+      "dimensions": "Stone 3.4 mm",
+      "makingCharge": 1900,
+      "taxNote": "Inclusive of making charges. GST extra as applicable at checkout.",
+      "images": [
+        "/products/earring-2.jpg",
+        "/products/earring-4.jpg",
+        "/products/earring-1.jpg",
+        "/products/earring-3.jpg"
+      ],
+      "certificateNumber": "IGI-7730012",
+      "certifiedBy": "IGI",
+      "warranty": "Lifetime manufacturing warranty",
+      "care": "Wipe with a soft lint-free cloth after wear. Store separately in the Avyora pouch. Avoid perfume, chlorinated water and abrasive cleaners. Professional polishing recommended once a year.",
+      "returnPolicy": "15-day exchange on unworn pieces with original hallmarks, tags and certificate. Custom and engraved pieces are final sale. Prepaid refunds are processed within 5–7 working days after QC.",
+      "seoTitle": "Aster Diamond Studs | Avyora",
+      "seoDescription": "Everyday 18KT diamond studs, 0.30 ct total weight.",
+      "bestSeller": true,
+      "rating": 4.8,
+      "reviewCount": 91,
+      "reviews": [
+        {
+          "id": "p6-r1",
+          "author": "Ananya M.",
+          "rating": 5,
+          "title": "Quiet luxury, beautifully made",
+          "body": "The finish is exceptional and the weight feels honest. Packaging was museum-level.",
+          "date": "12 Jul 2026",
+          "verified": true,
+          "status": "visible"
+        },
+        {
+          "id": "p6-r2",
+          "author": "Riya S.",
+          "rating": 5,
+          "title": "Compliments on day one",
+          "body": "Arrived with hallmark and certificate. Sits perfectly — the kind of piece you forget you're wearing until someone notices.",
+          "date": "28 Jun 2026",
+          "verified": true,
+          "status": "visible"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "AV-ER-019-18Y",
+          "metal": "Gold",
+          "purity": "18KT",
+          "colour": "Yellow",
+          "stock": 10,
+          "price": 41200,
+          "salePrice": 37800
+        },
+        {
+          "sku": "AV-ER-019-18W",
+          "metal": "Gold",
+          "purity": "18KT",
+          "colour": "White",
+          "stock": 6,
+          "price": 42100
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "p7",
+      "sku": "AV-BR-006",
+      "slug": "trace-chain-bracelet",
+      "name": "Trace Chain Bracelet",
+      "brand": "Avyora",
+      "category": "Bracelets",
+      "collection": "atelier",
+      "tags": [
+        "chain",
+        "gold",
+        "stacking"
+      ],
+      "description": "An elongated paperclip chain in 14KT gold with a concealed clasp and extender.",
+      "story": "Trace is architecture for the wrist — stack it or let it stand alone.",
+      "metal": "Gold",
+      "purity": "14KT",
+      "colour": "Yellow",
+      "weight": "6.6 g",
+      "dimensions": "Length 17–19 cm",
+      "makingCharge": 2400,
+      "taxNote": "Inclusive of making charges. GST extra as applicable at checkout.",
+      "images": [
+        "/products/bracelet-1.jpg",
+        "/products/bracelet-2.jpg",
+        "/products/bracelet-3.jpg",
+        "/products/bracelet-4.jpg"
+      ],
+      "certificateNumber": "BIS-HALL-8821",
+      "certifiedBy": "BIS Hallmark",
+      "warranty": "Lifetime manufacturing warranty",
+      "care": "Wipe with a soft lint-free cloth after wear. Store separately in the Avyora pouch. Avoid perfume, chlorinated water and abrasive cleaners. Professional polishing recommended once a year.",
+      "returnPolicy": "15-day exchange on unworn pieces with original hallmarks, tags and certificate. Custom and engraved pieces are final sale. Prepaid refunds are processed within 5–7 working days after QC.",
+      "seoTitle": "Trace Chain Bracelet | Avyora",
+      "seoDescription": "14KT gold paperclip chain bracelet from Atelier.",
+      "newArrival": true,
+      "rating": 4.6,
+      "reviewCount": 38,
+      "reviews": [
+        {
+          "id": "p7-r1",
+          "author": "Ananya M.",
+          "rating": 5,
+          "title": "Quiet luxury, beautifully made",
+          "body": "The finish is exceptional and the weight feels honest. Packaging was museum-level.",
+          "date": "12 Jul 2026",
+          "verified": true,
+          "status": "visible"
+        },
+        {
+          "id": "p7-r2",
+          "author": "Riya S.",
+          "rating": 5,
+          "title": "Compliments on day one",
+          "body": "Arrived with hallmark and certificate. Sits perfectly — the kind of piece you forget you're wearing until someone notices.",
+          "date": "28 Jun 2026",
+          "verified": true,
+          "status": "visible"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "AV-BR-006-14Y",
+          "metal": "Gold",
+          "purity": "14KT",
+          "colour": "Yellow",
+          "stock": 9,
+          "price": 36400
+        },
+        {
+          "sku": "AV-BR-006-14R",
+          "metal": "Gold",
+          "purity": "14KT",
+          "colour": "Rose",
+          "stock": 5,
+          "price": 37100
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "p8",
+      "sku": "AV-BR-011",
+      "slug": "orbit-tennis-bracelet",
+      "name": "Orbit Tennis Bracelet",
+      "brand": "Avyora",
+      "category": "Bracelets",
+      "collection": "celeste",
+      "tags": [
+        "tennis",
+        "diamond",
+        "platinum"
+      ],
+      "description": "A platinum tennis line with matched brilliants and a discreet safety clasp.",
+      "story": "Orbit is precision jewellery — each stone calibrated for even fire.",
+      "metal": "Platinum",
+      "purity": "950",
+      "colour": "White",
+      "stone": "Natural diamond",
+      "cut": "Round brilliant",
+      "clarity": "VS2",
+      "carat": "2.00 ct tw",
+      "weight": "12.1 g",
+      "dimensions": "Length 17.5 cm",
+      "makingCharge": 9800,
+      "taxNote": "Inclusive of making charges. GST extra as applicable at checkout.",
+      "images": [
+        "/products/bracelet-3.jpg",
+        "/products/bracelet-1.jpg",
+        "/products/bracelet-4.jpg",
+        "/products/bracelet-2.jpg"
+      ],
+      "certificateNumber": "IGI-44019823",
+      "certifiedBy": "IGI",
+      "warranty": "Lifetime manufacturing warranty",
+      "care": "Wipe with a soft lint-free cloth after wear. Store separately in the Avyora pouch. Avoid perfume, chlorinated water and abrasive cleaners. Professional polishing recommended once a year.",
+      "returnPolicy": "15-day exchange on unworn pieces with original hallmarks, tags and certificate. Custom and engraved pieces are final sale. Prepaid refunds are processed within 5–7 working days after QC.",
+      "seoTitle": "Orbit Tennis Bracelet | Avyora",
+      "seoDescription": "Platinum 950 tennis bracelet with 2.00 ct natural diamonds.",
+      "featured": true,
+      "rating": 4.9,
+      "reviewCount": 17,
+      "reviews": [
+        {
+          "id": "p8-r1",
+          "author": "Ananya M.",
+          "rating": 5,
+          "title": "Quiet luxury, beautifully made",
+          "body": "The finish is exceptional and the weight feels honest. Packaging was museum-level.",
+          "date": "12 Jul 2026",
+          "verified": true,
+          "status": "visible"
+        },
+        {
+          "id": "p8-r2",
+          "author": "Riya S.",
+          "rating": 5,
+          "title": "Compliments on day one",
+          "body": "Arrived with hallmark and certificate. Sits perfectly — the kind of piece you forget you're wearing until someone notices.",
+          "date": "28 Jun 2026",
+          "verified": true,
+          "status": "visible"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "AV-BR-011-PT",
+          "metal": "Platinum",
+          "purity": "950",
+          "colour": "White",
+          "stock": 2,
+          "price": 312000
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "p9",
+      "sku": "AV-PD-004",
+      "slug": "luna-crescent-pendant",
+      "name": "Luna Crescent Pendant",
+      "brand": "Avyora",
+      "category": "Pendants",
+      "collection": "flora",
+      "tags": [
+        "pendant",
+        "moon",
+        "gold"
+      ],
+      "description": "A crescent of 14KT gold, pavé-tipped, on an adjustable wheat chain.",
+      "story": "Worn close to the collarbone. A talisman more than an ornament.",
+      "metal": "Gold",
+      "purity": "14KT",
+      "colour": "Yellow",
+      "stone": "Lab-grown diamond",
+      "carat": "0.08 ct tw",
+      "weight": "2.4 g",
+      "dimensions": "Pendant 14 mm · chain 40–45 cm",
+      "makingCharge": 1600,
+      "taxNote": "Inclusive of making charges. GST extra as applicable at checkout.",
+      "images": [
+        "/products/pendant-1.jpg",
+        "/products/pendant-2.jpg",
+        "/products/pendant-3.jpg",
+        "/products/necklace-3.jpg"
+      ],
+      "certificateNumber": "BIS-HALL-1190",
+      "certifiedBy": "BIS Hallmark",
+      "warranty": "Lifetime manufacturing warranty",
+      "care": "Wipe with a soft lint-free cloth after wear. Store separately in the Avyora pouch. Avoid perfume, chlorinated water and abrasive cleaners. Professional polishing recommended once a year.",
+      "returnPolicy": "15-day exchange on unworn pieces with original hallmarks, tags and certificate. Custom and engraved pieces are final sale. Prepaid refunds are processed within 5–7 working days after QC.",
+      "seoTitle": "Luna Crescent Pendant | Avyora",
+      "seoDescription": "14KT gold crescent pendant with diamond pavé tips.",
+      "newArrival": true,
+      "rating": 4.7,
+      "reviewCount": 44,
+      "reviews": [
+        {
+          "id": "p9-r1",
+          "author": "Ananya M.",
+          "rating": 5,
+          "title": "Quiet luxury, beautifully made",
+          "body": "The finish is exceptional and the weight feels honest. Packaging was museum-level.",
+          "date": "12 Jul 2026",
+          "verified": true,
+          "status": "visible"
+        },
+        {
+          "id": "p9-r2",
+          "author": "Riya S.",
+          "rating": 5,
+          "title": "Compliments on day one",
+          "body": "Arrived with hallmark and certificate. Sits perfectly — the kind of piece you forget you're wearing until someone notices.",
+          "date": "28 Jun 2026",
+          "verified": true,
+          "status": "visible"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "AV-PD-004-14Y",
+          "metal": "Gold",
+          "purity": "14KT",
+          "colour": "Yellow",
+          "stock": 14,
+          "price": 19800
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "p10",
+      "sku": "AV-RG-022",
+      "slug": "verre-emerald-band",
+      "name": "Verre Emerald Band",
+      "brand": "Avyora",
+      "category": "Rings",
+      "collection": "flora",
+      "tags": [
+        "emerald",
+        "stacking",
+        "colour"
+      ],
+      "description": "A slim 18KT band set with a row of baguette emeralds.",
+      "story": "Verre is colour as architecture — designed to stack with Solenne or stand alone.",
+      "metal": "Gold",
+      "purity": "18KT",
+      "colour": "Yellow",
+      "stone": "Zambian emerald",
+      "cut": "Baguette",
+      "clarity": "Eye-clean",
+      "carat": "0.42 ct tw",
+      "weight": "2.6 g",
+      "dimensions": "Band width 2.1 mm",
+      "makingCharge": 3100,
+      "taxNote": "Inclusive of making charges. GST extra as applicable at checkout.",
+      "images": [
+        "/products/ring-3.jpg",
+        "/products/ring-4.jpg",
+        "/products/ring-5.jpg",
+        "/products/ring-2.jpg"
+      ],
+      "certificateNumber": "GRS-EM-20881",
+      "certifiedBy": "GRS",
+      "warranty": "1-year stone security · lifetime manufacturing",
+      "care": "Wipe with a soft lint-free cloth after wear. Store separately in the Avyora pouch. Avoid perfume, chlorinated water and abrasive cleaners. Professional polishing recommended once a year.",
+      "returnPolicy": "15-day exchange on unworn pieces with original hallmarks, tags and certificate. Custom and engraved pieces are final sale. Prepaid refunds are processed within 5–7 working days after QC.",
+      "seoTitle": "Verre Emerald Band | Avyora",
+      "seoDescription": "18KT yellow gold baguette emerald stacking band.",
+      "newArrival": true,
+      "rating": 4.8,
+      "reviewCount": 19,
+      "reviews": [
+        {
+          "id": "p10-r1",
+          "author": "Ananya M.",
+          "rating": 5,
+          "title": "Quiet luxury, beautifully made",
+          "body": "The finish is exceptional and the weight feels honest. Packaging was museum-level.",
+          "date": "12 Jul 2026",
+          "verified": true,
+          "status": "visible"
+        },
+        {
+          "id": "p10-r2",
+          "author": "Riya S.",
+          "rating": 5,
+          "title": "Compliments on day one",
+          "body": "Arrived with hallmark and certificate. Sits perfectly — the kind of piece you forget you're wearing until someone notices.",
+          "date": "28 Jun 2026",
+          "verified": true,
+          "status": "visible"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "AV-RG-022-12",
+          "size": "12",
+          "metal": "Gold",
+          "purity": "18KT",
+          "colour": "Yellow",
+          "stock": 3,
+          "price": 74200
+        },
+        {
+          "sku": "AV-RG-022-14",
+          "size": "14",
+          "metal": "Gold",
+          "purity": "18KT",
+          "colour": "Yellow",
+          "stock": 5,
+          "price": 74200
+        },
+        {
+          "sku": "AV-RG-022-16",
+          "size": "16",
+          "metal": "Gold",
+          "purity": "18KT",
+          "colour": "Yellow",
+          "stock": 2,
+          "price": 74800
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "p11",
+      "sku": "AV-NK-031",
+      "slug": "silva-silver-lariat",
+      "name": "Silva Silver Lariat",
+      "brand": "Avyora",
+      "category": "Necklaces",
+      "collection": "atelier",
+      "tags": [
+        "silver",
+        "lariat",
+        "minimal"
+      ],
+      "description": "Oxidised sterling silver lariat with a single baroque pearl drop.",
+      "story": "Silva is evening silver — darker, quieter, more architectural.",
+      "metal": "Silver",
+      "purity": "925",
+      "colour": "White",
+      "stone": "Baroque pearl",
+      "weight": "8.2 g",
+      "dimensions": "Adjustable 50–70 cm",
+      "makingCharge": 900,
+      "taxNote": "Inclusive of making charges. GST extra as applicable at checkout.",
+      "images": [
+        "/products/pendant-2.jpg",
+        "/products/necklace-3.jpg",
+        "/products/necklace-2.jpg",
+        "/products/pendant-3.jpg"
+      ],
+      "certificateNumber": "AVY-AG-925-31",
+      "certifiedBy": "Avyora Authenticity",
+      "warranty": "1-year craftsmanship warranty",
+      "care": "Wipe with a soft lint-free cloth after wear. Store separately in the Avyora pouch. Avoid perfume, chlorinated water and abrasive cleaners. Professional polishing recommended once a year.",
+      "returnPolicy": "15-day exchange on unworn pieces with original hallmarks, tags and certificate. Custom and engraved pieces are final sale. Prepaid refunds are processed within 5–7 working days after QC.",
+      "seoTitle": "Silva Silver Lariat | Avyora",
+      "seoDescription": "925 oxidised silver lariat necklace with baroque pearl.",
+      "rating": 4.5,
+      "reviewCount": 27,
+      "reviews": [
+        {
+          "id": "p11-r1",
+          "author": "Ananya M.",
+          "rating": 5,
+          "title": "Quiet luxury, beautifully made",
+          "body": "The finish is exceptional and the weight feels honest. Packaging was museum-level.",
+          "date": "12 Jul 2026",
+          "verified": true,
+          "status": "visible"
+        },
+        {
+          "id": "p11-r2",
+          "author": "Riya S.",
+          "rating": 5,
+          "title": "Compliments on day one",
+          "body": "Arrived with hallmark and certificate. Sits perfectly — the kind of piece you forget you're wearing until someone notices.",
+          "date": "28 Jun 2026",
+          "verified": true,
+          "status": "visible"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "AV-NK-031-925",
+          "metal": "Silver",
+          "purity": "925",
+          "colour": "White",
+          "stock": 11,
+          "price": 8900
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "p12",
+      "sku": "AV-ER-027",
+      "slug": "gala-hoop-earrings",
+      "name": "Gala Hoop Earrings",
+      "brand": "Avyora",
+      "category": "Earrings",
+      "collection": "atelier",
+      "tags": [
+        "hoops",
+        "gold",
+        "everyday"
+      ],
+      "description": "Medium hollow hoops in 14KT gold with a polished inner and satin outer.",
+      "story": "Gala is the hoop that finishes a shirt-collar as easily as silk.",
+      "metal": "Gold",
+      "purity": "14KT",
+      "colour": "Yellow",
+      "weight": "5.0 g",
+      "dimensions": "Diameter 28 mm",
+      "makingCharge": 2100,
+      "taxNote": "Inclusive of making charges. GST extra as applicable at checkout.",
+      "images": [
+        "/products/earring-4.jpg",
+        "/products/earring-1.jpg",
+        "/products/earring-3.jpg",
+        "/products/earring-2.jpg"
+      ],
+      "certificateNumber": "BIS-HALL-5503",
+      "certifiedBy": "BIS Hallmark",
+      "warranty": "Lifetime manufacturing warranty",
+      "care": "Wipe with a soft lint-free cloth after wear. Store separately in the Avyora pouch. Avoid perfume, chlorinated water and abrasive cleaners. Professional polishing recommended once a year.",
+      "returnPolicy": "15-day exchange on unworn pieces with original hallmarks, tags and certificate. Custom and engraved pieces are final sale. Prepaid refunds are processed within 5–7 working days after QC.",
+      "seoTitle": "Gala Hoop Earrings | Avyora",
+      "seoDescription": "14KT gold medium hoops with mixed polish finish.",
+      "bestSeller": true,
+      "rating": 4.8,
+      "reviewCount": 73,
+      "reviews": [
+        {
+          "id": "p12-r1",
+          "author": "Ananya M.",
+          "rating": 5,
+          "title": "Quiet luxury, beautifully made",
+          "body": "The finish is exceptional and the weight feels honest. Packaging was museum-level.",
+          "date": "12 Jul 2026",
+          "verified": true,
+          "status": "visible"
+        },
+        {
+          "id": "p12-r2",
+          "author": "Riya S.",
+          "rating": 5,
+          "title": "Compliments on day one",
+          "body": "Arrived with hallmark and certificate. Sits perfectly — the kind of piece you forget you're wearing until someone notices.",
+          "date": "28 Jun 2026",
+          "verified": true,
+          "status": "visible"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "AV-ER-027-14Y",
+          "metal": "Gold",
+          "purity": "14KT",
+          "colour": "Yellow",
+          "stock": 15,
+          "price": 24800
+        },
+        {
+          "sku": "AV-ER-027-14W",
+          "metal": "Gold",
+          "purity": "14KT",
+          "colour": "White",
+          "stock": 4,
+          "price": 25500
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "p13",
+      "sku": "AV-PD-012",
+      "slug": "voie-letter-pendant",
+      "name": "Voie Letter Pendant",
+      "brand": "Avyora",
+      "category": "Pendants",
+      "collection": "atelier",
+      "tags": [
+        "personal",
+        "gold",
+        "gift"
+      ],
+      "description": "A diamond-tipped initial on a 14KT cable chain. Engraving included.",
+      "story": "Voie is the gift that feels written, not purchased.",
+      "metal": "Gold",
+      "purity": "14KT",
+      "colour": "Yellow",
+      "stone": "Lab-grown diamond",
+      "carat": "0.02 ct",
+      "weight": "1.9 g",
+      "dimensions": "Letter 10 mm · chain 45 cm",
+      "makingCharge": 1400,
+      "taxNote": "Inclusive of making charges. GST extra as applicable at checkout.",
+      "images": [
+        "/products/pendant-3.jpg",
+        "/products/pendant-1.jpg",
+        "/products/necklace-3.jpg",
+        "/products/pendant-2.jpg"
+      ],
+      "certificateNumber": "BIS-HALL-6610",
+      "certifiedBy": "BIS Hallmark",
+      "warranty": "Lifetime manufacturing warranty",
+      "care": "Wipe with a soft lint-free cloth after wear. Store separately in the Avyora pouch. Avoid perfume, chlorinated water and abrasive cleaners. Professional polishing recommended once a year.",
+      "returnPolicy": "15-day exchange on unworn pieces with original hallmarks, tags and certificate. Custom and engraved pieces are final sale. Prepaid refunds are processed within 5–7 working days after QC.",
+      "seoTitle": "Voie Letter Pendant | Avyora",
+      "seoDescription": "14KT gold diamond-tipped initial pendant with engraving.",
+      "rating": 4.6,
+      "reviewCount": 52,
+      "reviews": [
+        {
+          "id": "p13-r1",
+          "author": "Ananya M.",
+          "rating": 5,
+          "title": "Quiet luxury, beautifully made",
+          "body": "The finish is exceptional and the weight feels honest. Packaging was museum-level.",
+          "date": "12 Jul 2026",
+          "verified": true,
+          "status": "visible"
+        },
+        {
+          "id": "p13-r2",
+          "author": "Riya S.",
+          "rating": 5,
+          "title": "Compliments on day one",
+          "body": "Arrived with hallmark and certificate. Sits perfectly — the kind of piece you forget you're wearing until someone notices.",
+          "date": "28 Jun 2026",
+          "verified": true,
+          "status": "visible"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "AV-PD-012-14Y",
+          "metal": "Gold",
+          "purity": "14KT",
+          "colour": "Yellow",
+          "stock": 20,
+          "price": 16400
+        },
+        {
+          "sku": "AV-PD-012-14R",
+          "metal": "Gold",
+          "purity": "14KT",
+          "colour": "Rose",
+          "stock": 9,
+          "price": 16800
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "p14",
+      "sku": "AV-RG-030",
+      "slug": "nara-signet",
+      "name": "Nara Signet",
+      "brand": "Avyora",
+      "category": "Rings",
+      "collection": "atelier",
+      "tags": [
+        "signet",
+        "gold",
+        "unisex"
+      ],
+      "description": "An oval 18KT signet with a recessed face, ready for a crest or left quiet.",
+      "story": "Nara is weight with intention — unisex, hallmarked, made to inherit.",
+      "metal": "Gold",
+      "purity": "18KT",
+      "colour": "Yellow",
+      "weight": "7.8 g",
+      "dimensions": "Face 12 × 10 mm",
+      "makingCharge": 3600,
+      "taxNote": "Inclusive of making charges. GST extra as applicable at checkout.",
+      "images": [
+        "/products/ring-4.jpg",
+        "/products/ring-1.jpg",
+        "/products/ring-6.jpg",
+        "/products/ring-5.jpg"
+      ],
+      "certificateNumber": "BIS-HALL-9090",
+      "certifiedBy": "BIS Hallmark",
+      "warranty": "Lifetime manufacturing warranty",
+      "care": "Wipe with a soft lint-free cloth after wear. Store separately in the Avyora pouch. Avoid perfume, chlorinated water and abrasive cleaners. Professional polishing recommended once a year.",
+      "returnPolicy": "15-day exchange on unworn pieces with original hallmarks, tags and certificate. Custom and engraved pieces are final sale. Prepaid refunds are processed within 5–7 working days after QC.",
+      "seoTitle": "Nara Signet Ring | Avyora",
+      "seoDescription": "18KT yellow gold oval signet, ready to engrave.",
+      "rating": 4.7,
+      "reviewCount": 21,
+      "reviews": [
+        {
+          "id": "p14-r1",
+          "author": "Ananya M.",
+          "rating": 5,
+          "title": "Quiet luxury, beautifully made",
+          "body": "The finish is exceptional and the weight feels honest. Packaging was museum-level.",
+          "date": "12 Jul 2026",
+          "verified": true,
+          "status": "visible"
+        },
+        {
+          "id": "p14-r2",
+          "author": "Riya S.",
+          "rating": 5,
+          "title": "Compliments on day one",
+          "body": "Arrived with hallmark and certificate. Sits perfectly — the kind of piece you forget you're wearing until someone notices.",
+          "date": "28 Jun 2026",
+          "verified": true,
+          "status": "visible"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "AV-RG-030-16",
+          "size": "16",
+          "metal": "Gold",
+          "purity": "18KT",
+          "colour": "Yellow",
+          "stock": 4,
+          "price": 68900
+        },
+        {
+          "sku": "AV-RG-030-18",
+          "size": "18",
+          "metal": "Gold",
+          "purity": "18KT",
+          "colour": "Yellow",
+          "stock": 3,
+          "price": 71200
+        },
+        {
+          "sku": "AV-RG-030-20",
+          "size": "20",
+          "metal": "Gold",
+          "purity": "18KT",
+          "colour": "Yellow",
+          "stock": 2,
+          "price": 73800
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "p15",
+      "sku": "AV-BR-018",
+      "slug": "dune-cuff",
+      "name": "Dune Cuff",
+      "brand": "Avyora",
+      "category": "Bracelets",
+      "collection": "flora",
+      "tags": [
+        "cuff",
+        "silver",
+        "sculptural"
+      ],
+      "description": "A hammered sterling cuff that opens with a single fluid motion.",
+      "story": "Dune is jewellery as landscape — light catching on irregular planes.",
+      "metal": "Silver",
+      "purity": "925",
+      "colour": "White",
+      "weight": "38 g",
+      "dimensions": "Inner 60 mm · opening 28 mm",
+      "makingCharge": 1100,
+      "taxNote": "Inclusive of making charges. GST extra as applicable at checkout.",
+      "images": [
+        "/products/bracelet-4.jpg",
+        "/products/bracelet-2.jpg",
+        "/products/bracelet-1.jpg",
+        "/products/bracelet-3.jpg"
+      ],
+      "certificateNumber": "AVY-AG-925-18",
+      "certifiedBy": "Avyora Authenticity",
+      "warranty": "1-year craftsmanship warranty",
+      "care": "Wipe with a soft lint-free cloth after wear. Store separately in the Avyora pouch. Avoid perfume, chlorinated water and abrasive cleaners. Professional polishing recommended once a year.",
+      "returnPolicy": "15-day exchange on unworn pieces with original hallmarks, tags and certificate. Custom and engraved pieces are final sale. Prepaid refunds are processed within 5–7 working days after QC.",
+      "seoTitle": "Dune Cuff | Avyora",
+      "seoDescription": "Hammered 925 silver open cuff from Flora.",
+      "newArrival": true,
+      "rating": 4.4,
+      "reviewCount": 16,
+      "reviews": [
+        {
+          "id": "p15-r1",
+          "author": "Ananya M.",
+          "rating": 5,
+          "title": "Quiet luxury, beautifully made",
+          "body": "The finish is exceptional and the weight feels honest. Packaging was museum-level.",
+          "date": "12 Jul 2026",
+          "verified": true,
+          "status": "visible"
+        },
+        {
+          "id": "p15-r2",
+          "author": "Riya S.",
+          "rating": 5,
+          "title": "Compliments on day one",
+          "body": "Arrived with hallmark and certificate. Sits perfectly — the kind of piece you forget you're wearing until someone notices.",
+          "date": "28 Jun 2026",
+          "verified": true,
+          "status": "visible"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "AV-BR-018-S",
+          "size": "S",
+          "metal": "Silver",
+          "purity": "925",
+          "colour": "White",
+          "stock": 6,
+          "price": 12400
+        },
+        {
+          "sku": "AV-BR-018-M",
+          "size": "M",
+          "metal": "Silver",
+          "purity": "925",
+          "colour": "White",
+          "stock": 7,
+          "price": 12400
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "p16",
+      "sku": "AV-NK-040",
+      "slug": "hearth-layered-set",
+      "name": "Hearth Layered Set",
+      "brand": "Avyora",
+      "category": "Necklaces",
+      "collection": "flora",
+      "tags": [
+        "layering",
+        "gold",
+        "set"
+      ],
+      "description": "Three 14KT chains of staggered length, sold as a composed set.",
+      "story": "Hearth is the easy luxury of already knowing how to layer.",
+      "metal": "Gold",
+      "purity": "14KT",
+      "colour": "Yellow",
+      "weight": "9.4 g",
+      "dimensions": "Lengths 38 / 42 / 50 cm",
+      "makingCharge": 3200,
+      "taxNote": "Inclusive of making charges. GST extra as applicable at checkout.",
+      "images": [
+        "/products/necklace-5.jpg",
+        "/products/necklace-1.jpg",
+        "/products/necklace-2.jpg",
+        "/products/necklace-4.jpg"
+      ],
+      "lifestyleImage": "/products/life-4.jpg",
+      "certificateNumber": "BIS-HALL-4040",
+      "certifiedBy": "BIS Hallmark",
+      "warranty": "Lifetime manufacturing warranty",
+      "care": "Wipe with a soft lint-free cloth after wear. Store separately in the Avyora pouch. Avoid perfume, chlorinated water and abrasive cleaners. Professional polishing recommended once a year.",
+      "returnPolicy": "15-day exchange on unworn pieces with original hallmarks, tags and certificate. Custom and engraved pieces are final sale. Prepaid refunds are processed within 5–7 working days after QC.",
+      "seoTitle": "Hearth Layered Necklace Set | Avyora",
+      "seoDescription": "Three-strand 14KT gold layering set from Flora.",
+      "featured": true,
+      "bestSeller": true,
+      "rating": 4.9,
+      "reviewCount": 58,
+      "reviews": [
+        {
+          "id": "p16-r1",
+          "author": "Ananya M.",
+          "rating": 5,
+          "title": "Quiet luxury, beautifully made",
+          "body": "The finish is exceptional and the weight feels honest. Packaging was museum-level.",
+          "date": "12 Jul 2026",
+          "verified": true,
+          "status": "visible"
+        },
+        {
+          "id": "p16-r2",
+          "author": "Riya S.",
+          "rating": 5,
+          "title": "Compliments on day one",
+          "body": "Arrived with hallmark and certificate. Sits perfectly — the kind of piece you forget you're wearing until someone notices.",
+          "date": "28 Jun 2026",
+          "verified": true,
+          "status": "visible"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "AV-NK-040-14Y",
+          "metal": "Gold",
+          "purity": "14KT",
+          "colour": "Yellow",
+          "stock": 8,
+          "price": 54200,
+          "salePrice": 49800
+        }
+      ],
+      "status": "published"
+    }
+  ],
+  "collections": [
+    {
+      "slug": "atelier",
+      "name": "Atelier",
+      "tagline": "Quiet gold. Daily architecture.",
+      "description": "Foundational pieces in hallmarked gold and silver — chains, signets, pearls — designed to be worn into the next decade.",
+      "image": "/products/necklace-1.jpg",
+      "productSlugs": [
+        "solenne-diamond-solitaire",
+        "aura-pearl-collar",
+        "trace-chain-bracelet",
+        "silva-silver-lariat",
+        "gala-hoop-earrings",
+        "voie-letter-pendant",
+        "nara-signet"
+      ]
+    },
+    {
+      "slug": "celeste",
+      "name": "Celeste",
+      "tagline": "Light, set in metal.",
+      "description": "Certified diamonds — natural and lab-grown — in halos, tennis lines and studs with precise proportions.",
+      "image": "/products/ring-2.jpg",
+      "productSlugs": [
+        "lumen-halo-ring",
+        "nocturne-tennis-necklace",
+        "aster-diamond-studs",
+        "orbit-tennis-bracelet"
+      ]
+    },
+    {
+      "slug": "flora",
+      "name": "Flora",
+      "tagline": "Colour, crescent, bloom.",
+      "description": "Sculptural drops, emeralds, cuffs and layered gold — pieces with a garden's sense of season.",
+      "image": "/products/earring-1.jpg",
+      "productSlugs": [
+        "iris-drop-earrings",
+        "luna-crescent-pendant",
+        "verre-emerald-band",
+        "dune-cuff",
+        "hearth-layered-set"
+      ]
+    }
+  ],
+  "coupons": [
+    {
+      "code": "AVYORA10",
+      "type": "percent",
+      "value": 10,
+      "minOrder": 15000,
+      "label": "10% off above ₹15,000",
+      "active": true,
+      "usageCount": 0
+    },
+    {
+      "code": "FESTIVE15",
+      "type": "percent",
+      "value": 15,
+      "minOrder": 40000,
+      "label": "15% festive offer above ₹40,000",
+      "active": true,
+      "usageCount": 0
+    },
+    {
+      "code": "WELCOME500",
+      "type": "flat",
+      "value": 500,
+      "minOrder": 8000,
+      "label": "₹500 off first order",
+      "active": true,
+      "usageCount": 0
+    },
+    {
+      "code": "8209920690",
+      "type": "percent",
+      "value": 50,
+      "minOrder": 10,
+      "label": "AVYORA50",
+      "active": true,
+      "usageCount": 2,
+      "usageLimit": 10,
+      "startsAt": "2026-09-03",
+      "endsAt": "2026-09-04"
+    }
+  ],
+  "customers": [],
+  "orders": [],
+  "campaigns": [
+    {
+      "id": "camp-bridal",
+      "title": "Bridal favourites on sale",
+      "body": "Solitaires, halos and tennis bracelets with complimentary resizing within 30 days on most rings.",
+      "image": "/products/life-1.jpg",
+      "href": "/shop?tag=bridal",
+      "active": true
+    }
+  ],
+  "mediaUrls": [],
+  "audit": [],
+  "appointments": [],
+  "ops": {
+    "categories": [
+      {
+        "id": "cat-rings",
+        "name": "Rings",
+        "slug": "rings",
+        "description": "Solitaires, bands and signets.",
+        "image": "/products/ring-1.jpg",
+        "banner": "/products/ring-5.jpg",
+        "order": 1,
+        "enabled": true,
+        "showInMenu": true,
+        "seoTitle": "Rings | Avyora",
+        "seoDescription": "Hallmarked rings."
+      },
+      {
+        "id": "cat-necklaces",
+        "name": "Necklaces",
+        "slug": "necklaces",
+        "description": "Collars, tennis lines and layering sets.",
+        "image": "/products/necklace-1.jpg",
+        "banner": "/products/necklace-2.jpg",
+        "order": 2,
+        "enabled": true,
+        "showInMenu": true,
+        "seoTitle": "Necklaces | Avyora",
+        "seoDescription": "Gold and diamond necklaces."
+      },
+      {
+        "id": "cat-earrings",
+        "name": "Earrings",
+        "slug": "earrings",
+        "description": "Drops, studs and hoops.",
+        "image": "/products/earring-1.jpg",
+        "banner": "/products/earring-2.jpg",
+        "order": 3,
+        "enabled": true,
+        "showInMenu": true,
+        "seoTitle": "Earrings | Avyora",
+        "seoDescription": "Everyday and evening earrings."
+      },
+      {
+        "id": "cat-bracelets",
+        "name": "Bracelets",
+        "slug": "bracelets",
+        "description": "Chains, tennis and cuffs.",
+        "image": "/products/bracelet-1.jpg",
+        "banner": "/products/bracelet-2.jpg",
+        "order": 4,
+        "enabled": true,
+        "showInMenu": true,
+        "seoTitle": "Bracelets | Avyora",
+        "seoDescription": "Bracelets in gold, silver and platinum."
+      },
+      {
+        "id": "cat-pendants",
+        "name": "Pendants",
+        "slug": "pendants",
+        "description": "Talismans and initials.",
+        "image": "/products/pendant-1.jpg",
+        "banner": "/products/pendant-2.jpg",
+        "order": 5,
+        "enabled": true,
+        "showInMenu": true,
+        "seoTitle": "Pendants | Avyora",
+        "seoDescription": "Pendants and charms."
+      }
+    ],
+    "brands": [
+      {
+        "id": "br-avyora",
+        "name": "Avyora",
+        "slug": "avyora",
+        "logo": "/products/necklace-1.jpg",
+        "description": "The maison brand. Hallmarked jewellery from Bengaluru.",
+        "enabled": true,
+        "seoTitle": "Avyora",
+        "seoDescription": "Avyora jewellery."
+      }
+    ],
+    "attributes": [
+      {
+        "id": "attr-size",
+        "name": "Size",
+        "values": [
+          "12",
+          "14",
+          "16",
+          "18",
+          "20",
+          "S",
+          "M"
+        ]
+      },
+      {
+        "id": "attr-metal",
+        "name": "Metal",
+        "values": [
+          "Gold",
+          "Silver",
+          "Platinum"
+        ]
+      },
+      {
+        "id": "attr-colour",
+        "name": "Colour",
+        "values": [
+          "Yellow",
+          "White",
+          "Rose"
+        ]
+      },
+      {
+        "id": "attr-purity",
+        "name": "Purity",
+        "values": [
+          "14KT",
+          "18KT",
+          "925",
+          "950"
+        ]
+      }
+    ],
+    "shippingMethods": [
+      {
+        "id": "ship-std",
+        "name": "Insured standard",
+        "carrier": "Delhivery",
+        "charge": 199,
+        "freeAbove": 7999,
+        "eta": "3–7 working days",
+        "zones": "Pan India",
+        "enabled": true
+      },
+      {
+        "id": "ship-exp",
+        "name": "Express metro",
+        "carrier": "Blue Dart",
+        "charge": 499,
+        "freeAbove": 25000,
+        "eta": "1–3 working days",
+        "zones": "Metro cities",
+        "enabled": true
+      }
+    ],
+    "deliveryPartners": [
+      {
+        "id": "partner-delhivery",
+        "name": "Delhivery",
+        "contactName": "Support desk",
+        "phone": "+91 124 6719500",
+        "email": "support@delhivery.com",
+        "active": true
+      },
+      {
+        "id": "partner-blue-dart",
+        "name": "Blue Dart",
+        "contactName": "Support desk",
+        "phone": "+91 1860 233 1234",
+        "email": "customerservice@bluedart.com",
+        "active": true
+      },
+      {
+        "id": "partner-avyora-local",
+        "name": "Avyora Local Dispatch",
+        "contactName": "Fulfilment desk",
+        "phone": "+91 80 4120 8800",
+        "email": "care@avyora.com",
+        "active": true
+      }
+    ],
+    "paymentMethods": [
+      {
+        "id": "pay-razorpay",
+        "name": "UPI · Cards · Netbanking",
+        "details": "Secure checkout via Razorpay.",
+        "enabled": true
+      },
+      {
+        "id": "pay-cod",
+        "name": "Cash on delivery",
+        "details": "Pay when your piece arrives. Available on select orders.",
+        "enabled": true
+      }
+    ],
+    "pages": [
+      {
+        "slug": "about",
+        "title": "The atelier",
+        "body": "Avyora is a Bengaluru jewellery house built around proportion, hallmarking and a calm client experience.",
+        "published": true,
+        "seoTitle": "About Avyora",
+        "seoDescription": "The Avyora maison."
+      },
+      {
+        "slug": "contact",
+        "title": "Contact",
+        "body": "Email atelier@avyora.com or call +91 80 4120 8800. Atelier visits by appointment at 12 Walton Road, Bengaluru.",
+        "published": true,
+        "seoTitle": "Contact",
+        "seoDescription": "Contact Avyora."
+      },
+      {
+        "slug": "privacy",
+        "title": "Privacy",
+        "body": "We collect only what is required to fulfil orders, prevent fraud and improve the atelier.",
+        "published": true,
+        "seoTitle": "Privacy",
+        "seoDescription": "Privacy policy."
+      },
+      {
+        "slug": "terms",
+        "title": "Terms",
+        "body": "Orders are a contract for hallmarked jewellery as described on the product page. Custom pieces are final sale.",
+        "published": true,
+        "seoTitle": "Terms",
+        "seoDescription": "Terms and conditions."
+      },
+      {
+        "slug": "returns",
+        "title": "Returns & refunds",
+        "body": "15-day exchange on unworn pieces with tags and certificate. Prepaid refunds in 5–7 working days after QC.",
+        "published": true,
+        "seoTitle": "Returns",
+        "seoDescription": "Returns and refunds."
+      },
+      {
+        "slug": "shipping",
+        "title": "Shipping",
+        "body": "Complimentary insured shipping above ₹7,999. Standard 3–7 working days.",
+        "published": true,
+        "seoTitle": "Shipping",
+        "seoDescription": "Shipping policy."
+      },
+      {
+        "slug": "faq",
+        "title": "FAQ",
+        "body": "Gold and silver carry BIS hallmarking. Most rings can be resized once within 30 days.",
+        "published": true,
+        "seoTitle": "FAQ",
+        "seoDescription": "Questions."
+      }
+    ],
+    "menus": [
+      {
+        "id": "m1",
+        "label": "Shop",
+        "href": "/shop",
+        "location": "header",
+        "order": 1,
+        "enabled": true
+      },
+      {
+        "id": "m2",
+        "label": "Atelier",
+        "href": "/collections/atelier",
+        "location": "header",
+        "order": 2,
+        "enabled": true
+      },
+      {
+        "id": "m3",
+        "label": "Celeste",
+        "href": "/collections/celeste",
+        "location": "header",
+        "order": 3,
+        "enabled": true
+      },
+      {
+        "id": "m4",
+        "label": "Flora",
+        "href": "/collections/flora",
+        "location": "header",
+        "order": 4,
+        "enabled": true
+      },
+      {
+        "id": "m5",
+        "label": "Maison",
+        "href": "/about",
+        "location": "header",
+        "order": 5,
+        "enabled": true
+      },
+      {
+        "id": "f1",
+        "label": "About",
+        "href": "/about",
+        "location": "footer",
+        "order": 1,
+        "enabled": true
+      },
+      {
+        "id": "f2",
+        "label": "Care",
+        "href": "/care",
+        "location": "footer",
+        "order": 2,
+        "enabled": true
+      },
+      {
+        "id": "f3",
+        "label": "FAQ",
+        "href": "/faq",
+        "location": "footer",
+        "order": 3,
+        "enabled": true
+      },
+      {
+        "id": "f4",
+        "label": "Shipping",
+        "href": "/policies/shipping",
+        "location": "footer",
+        "order": 4,
+        "enabled": true
+      },
+      {
+        "id": "f5",
+        "label": "Returns",
+        "href": "/policies/returns",
+        "location": "footer",
+        "order": 5,
+        "enabled": true
+      },
+      {
+        "id": "f6",
+        "label": "Privacy",
+        "href": "/policies/privacy",
+        "location": "footer",
+        "order": 6,
+        "enabled": true
+      }
+    ],
+    "banners": [
+      {
+        "id": "ban-hero",
+        "title": "Light, held in gold.",
+        "description": "Hallmarked metals and certified stones for a lifetime of wear.",
+        "image": "/products/necklace-1.jpg",
+        "href": "/shop",
+        "cta": "Shop the collection",
+        "placement": "hero",
+        "device": "all",
+        "enabled": true,
+        "order": 1
+      },
+      {
+        "id": "ban-promo",
+        "title": "The Quiet Bridal Edit",
+        "description": "Solitaires, halos and tennis lines. Complimentary resizing within 30 days.",
+        "image": "/products/life-1.jpg",
+        "href": "/shop?tag=bridal",
+        "cta": "Explore bridal",
+        "placement": "promo",
+        "device": "all",
+        "enabled": true,
+        "order": 2
+      }
+    ],
+    "homepageSections": [
+      {
+        "id": "hero",
+        "title": "Hero banner",
+        "enabled": true,
+        "order": 1
+      },
+      {
+        "id": "collections",
+        "title": "Collections",
+        "enabled": true,
+        "order": 2
+      },
+      {
+        "id": "bestsellers",
+        "title": "Bestsellers",
+        "enabled": true,
+        "order": 3
+      },
+      {
+        "id": "campaign",
+        "title": "Promotional campaign",
+        "enabled": true,
+        "order": 4
+      },
+      {
+        "id": "arrivals",
+        "title": "New arrivals",
+        "enabled": true,
+        "order": 5
+      },
+      {
+        "id": "trust",
+        "title": "Trust strip",
+        "enabled": true,
+        "order": 6
+      },
+      {
+        "id": "featured",
+        "title": "Editor selection",
+        "enabled": true,
+        "order": 7
+      }
+    ],
+    "settings": {
+      "name": "Avyora",
+      "tagline": "Everyday jewellery, made to wear.",
+      "email": "care@avyora.com",
+      "phone": "+91 80 4120 8800",
+      "whatsapp": "918041208800",
+      "address": "12, Walton Road, Bengaluru 560001",
+      "hours": "Tue–Sun, 11:00–19:00",
+      "currency": "INR",
+      "taxPercent": 3,
+      "freeShippingMin": 7999,
+      "returnDays": 15,
+      "maintenance": false,
+      "logoText": "Avyora"
+    },
+    "adminUsers": [
+      {
+        "id": "admin",
+        "name": "Atelier Admin",
+        "email": "admin@avyora.com",
+        "role": "Super Admin",
+        "active": true,
+        "permissions": [
+          "*"
+        ]
+      },
+      {
+        "id": "catalog",
+        "name": "Catalog Manager",
+        "email": "catalog@avyora.com",
+        "role": "Catalog Manager",
+        "active": true,
+        "permissions": [
+          "products",
+          "inventory",
+          "categories",
+          "orders"
+        ]
+      },
+      {
+        "id": "orders",
+        "name": "Order Manager",
+        "email": "orders@avyora.com",
+        "role": "Order Manager",
+        "active": true,
+        "permissions": [
+          "orders",
+          "returns",
+          "shipping",
+          "customers"
+        ]
+      }
+    ],
+    "groups": [
+      {
+        "id": "g-regular",
+        "name": "Regular",
+        "discountPercent": 0,
+        "benefits": "Standard checkout and 15-day exchange."
+      },
+      {
+        "id": "g-premium",
+        "name": "Premium",
+        "discountPercent": 5,
+        "benefits": "Priority resizing and atelier appointments."
+      },
+      {
+        "id": "g-vip",
+        "name": "VIP",
+        "discountPercent": 10,
+        "benefits": "Private viewing and complimentary cleaning."
+      },
+      {
+        "id": "g-wholesale",
+        "name": "Wholesale",
+        "discountPercent": 15,
+        "benefits": "Trade pricing on selected SKUs."
+      }
+    ],
+    "stockMoves": [],
+    "notifications": [
+      {
+        "id": "n-order",
+        "event": "Order confirmation",
+        "subject": "Your Avyora order {{id}}",
+        "body": "Thank you for your order. We have confirmed it and reserved your pieces. Your tax invoice is attached to this email.",
+        "enabled": true
+      },
+      {
+        "id": "n-pay",
+        "event": "Payment confirmation",
+        "subject": "Payment received",
+        "body": "We have verified your payment.",
+        "enabled": true
+      },
+      {
+        "id": "n-packed",
+        "event": "Packed",
+        "subject": "Your order {{id}} is packed",
+        "body": "{{checkpoint}} — {{location}}. {{description}}",
+        "enabled": true
+      },
+      {
+        "id": "n-ship",
+        "event": "Shipment",
+        "subject": "Your piece is on its way",
+        "body": "{{checkpoint}}. Tracking {{tracking}}.",
+        "enabled": true
+      },
+      {
+        "id": "n-tracking",
+        "event": "Tracking update",
+        "subject": "Update on order {{id}}",
+        "body": "{{checkpoint}} — {{location}}. {{description}}",
+        "enabled": true
+      },
+      {
+        "id": "n-del",
+        "event": "Delivery",
+        "subject": "Delivered — order {{id}}",
+        "body": "{{checkpoint}}. {{description}}",
+        "enabled": true
+      },
+      {
+        "id": "n-can",
+        "event": "Cancellation",
+        "subject": "Order cancelled",
+        "body": "The order has been cancelled as requested.",
+        "enabled": true
+      },
+      {
+        "id": "n-ret",
+        "event": "Return / refund",
+        "subject": "Return update",
+        "body": "Your return or refund has been updated.",
+        "enabled": true
+      },
+      {
+        "id": "n-promo",
+        "event": "Promotional",
+        "subject": "An offer from Avyora",
+        "body": "A campaign is now live in the atelier.",
+        "enabled": false
+      }
+    ],
+    "searches": [],
+    "visits": []
+  },
+  "updatedAt": "2026-09-11T08:55:37.198Z"
+}

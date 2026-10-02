@@ -1,0 +1,120 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  quality:
+    name: Lint & unit tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Prisma generate
+        run: npx prisma generate
+        env:
+          DATABASE_URL: postgresql://avyora:avyora@localhost:5432/avyora?schema=public
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Unit tests
+        run: npm test
+
+  docker:
+    name: Docker build (store)
+    runs-on: ubuntu-latest
+    needs: quality
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build store image
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: Dockerfile
+          push: false
+          build-args: |
+            AVYORA_APP=store
+            NEXT_PUBLIC_STOREFRONT_ORIGIN=http://localhost:3000
+            NEXT_PUBLIC_ADMIN_ORIGIN=http://localhost:3001
+            NEXT_PUBLIC_LOGISTICS_ORIGIN=http://localhost:3002
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+  e2e:
+    name: Critical-path E2E
+    runs-on: ubuntu-latest
+    needs: quality
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: avyora
+          POSTGRES_PASSWORD: avyora
+          POSTGRES_DB: avyora
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U avyora -d avyora"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 20
+    env:
+      DATABASE_URL: postgresql://avyora:avyora@localhost:5432/avyora?schema=public
+      JWT_SECRET: ci-jwt-secret-for-tests-only-not-for-prod-use-48
+      JWT_REFRESH_SECRET: ci-refresh-secret-for-tests-only-not-prod-48x
+      ALLOW_LEGACY_COMMERCE_WRITE: "false"
+      NEXT_PUBLIC_STOREFRONT_ORIGIN: http://localhost:3000
+      NEXT_PUBLIC_ADMIN_ORIGIN: http://localhost:3001
+      NEXT_PUBLIC_LOGISTICS_ORIGIN: http://localhost:3002
+      CI: "true"
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Prisma migrate + seed
+        run: |
+          npx prisma generate
+          npx prisma migrate deploy
+          npx tsx prisma/seed.ts
+
+      - name: Install Playwright Chromium
+        run: npx playwright install chromium --with-deps
+
+      - name: Run E2E
+        run: npm run test:e2e
+
+      - name: Upload Playwright report
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: |
+            playwright-report
+            test-results
+          retention-days: 7

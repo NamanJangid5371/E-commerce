@@ -1,0 +1,171 @@
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-avyora}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-avyora}
+      POSTGRES_DB: ${POSTGRES_DB:-avyora}
+    # Postgres is reachable only as hostname `db` on the Compose network (not published to the host).
+    # For local Prisma Studio / host tools on loopback only:
+    #   docker compose -f docker-compose.yml -f docker-compose.host-db.yml up -d db
+    volumes:
+      - avyora_pg:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-avyora} -d ${POSTGRES_DB:-avyora}"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  migrate:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: migrate
+    restart: "no"
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-avyora}:${POSTGRES_PASSWORD:-avyora}@db:5432/${POSTGRES_DB:-avyora}?schema=public
+      RUN_SEED: ${RUN_SEED:-false}
+      ADMIN_SEED_PASSWORD: ${ADMIN_SEED_PASSWORD:-}
+    depends_on:
+      db:
+        condition: service_healthy
+
+  store:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        AVYORA_APP: store
+        NEXT_PUBLIC_STOREFRONT_ORIGIN: ${NEXT_PUBLIC_STOREFRONT_ORIGIN:-http://localhost:3000}
+        NEXT_PUBLIC_ADMIN_ORIGIN: ${NEXT_PUBLIC_ADMIN_ORIGIN:-http://localhost:3001}
+        NEXT_PUBLIC_LOGISTICS_ORIGIN: ${NEXT_PUBLIC_LOGISTICS_ORIGIN:-http://localhost:3002}
+        NEXT_PUBLIC_RAZORPAY_KEY_ID: ${NEXT_PUBLIC_RAZORPAY_KEY_ID:-}
+    restart: unless-stopped
+    environment:
+      AVYORA_APP: store
+      NEXT_PUBLIC_AVYORA_APP: store
+      DATABASE_URL: postgresql://${POSTGRES_USER:-avyora}:${POSTGRES_PASSWORD:-avyora}@db:5432/${POSTGRES_DB:-avyora}?schema=public
+      JWT_SECRET: ${JWT_SECRET:?Set JWT_SECRET in .env to a strong unique secret (32+ chars)}
+      JWT_REFRESH_SECRET: ${JWT_REFRESH_SECRET:?Set JWT_REFRESH_SECRET in .env to a different strong secret (32+ chars)}
+      AUTH_COOKIE_DOMAIN: ${AUTH_COOKIE_DOMAIN:-}
+      AUTH_COOKIE_SECURE: ${AUTH_COOKIE_SECURE:-}
+      ALLOW_LEGACY_COMMERCE_WRITE: ${ALLOW_LEGACY_COMMERCE_WRITE:-false}
+      NEXT_PUBLIC_ALLOW_DEMO_STAFF_LOGIN: "false"
+      RAZORPAY_KEY_SECRET: ${RAZORPAY_KEY_SECRET:-}
+      RAZORPAY_WEBHOOK_SECRET: ${RAZORPAY_WEBHOOK_SECRET:-}
+      NEXT_PUBLIC_RAZORPAY_KEY_ID: ${NEXT_PUBLIC_RAZORPAY_KEY_ID:-}
+      NEXT_PUBLIC_STOREFRONT_ORIGIN: ${NEXT_PUBLIC_STOREFRONT_ORIGIN:-http://localhost:3000}
+      NEXT_PUBLIC_ADMIN_ORIGIN: ${NEXT_PUBLIC_ADMIN_ORIGIN:-http://localhost:3001}
+      NEXT_PUBLIC_LOGISTICS_ORIGIN: ${NEXT_PUBLIC_LOGISTICS_ORIGIN:-http://localhost:3002}
+      POSTGRES_HOST: db
+      POSTGRES_USER: ${POSTGRES_USER:-avyora}
+      POSTGRES_DB: ${POSTGRES_DB:-avyora}
+    ports:
+      - "3000:3000"
+    volumes:
+      - avyora_data:/app/data
+    depends_on:
+      db:
+        condition: service_healthy
+      migrate:
+        condition: service_completed_successfully
+
+  admin:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        AVYORA_APP: admin
+        NEXT_PUBLIC_STOREFRONT_ORIGIN: ${NEXT_PUBLIC_STOREFRONT_ORIGIN:-http://localhost:3000}
+        NEXT_PUBLIC_ADMIN_ORIGIN: ${NEXT_PUBLIC_ADMIN_ORIGIN:-http://localhost:3001}
+        NEXT_PUBLIC_LOGISTICS_ORIGIN: ${NEXT_PUBLIC_LOGISTICS_ORIGIN:-http://localhost:3002}
+        NEXT_PUBLIC_RAZORPAY_KEY_ID: ${NEXT_PUBLIC_RAZORPAY_KEY_ID:-}
+    restart: unless-stopped
+    environment:
+      AVYORA_APP: admin
+      NEXT_PUBLIC_AVYORA_APP: admin
+      DATABASE_URL: postgresql://${POSTGRES_USER:-avyora}:${POSTGRES_PASSWORD:-avyora}@db:5432/${POSTGRES_DB:-avyora}?schema=public
+      JWT_SECRET: ${JWT_SECRET:?Set JWT_SECRET in .env to a strong unique secret (32+ chars)}
+      JWT_REFRESH_SECRET: ${JWT_REFRESH_SECRET:?Set JWT_REFRESH_SECRET in .env to a different strong secret (32+ chars)}
+      AUTH_COOKIE_DOMAIN: ${AUTH_COOKIE_DOMAIN:-}
+      AUTH_COOKIE_SECURE: ${AUTH_COOKIE_SECURE:-}
+      ALLOW_LEGACY_COMMERCE_WRITE: ${ALLOW_LEGACY_COMMERCE_WRITE:-false}
+      NEXT_PUBLIC_ALLOW_DEMO_STAFF_LOGIN: "false"
+      POSTGRES_HOST: db
+      POSTGRES_USER: ${POSTGRES_USER:-avyora}
+      POSTGRES_DB: ${POSTGRES_DB:-avyora}
+      NEXT_PUBLIC_STOREFRONT_ORIGIN: ${NEXT_PUBLIC_STOREFRONT_ORIGIN:-http://localhost:3000}
+      NEXT_PUBLIC_ADMIN_ORIGIN: ${NEXT_PUBLIC_ADMIN_ORIGIN:-http://localhost:3001}
+      NEXT_PUBLIC_LOGISTICS_ORIGIN: ${NEXT_PUBLIC_LOGISTICS_ORIGIN:-http://localhost:3002}
+    ports:
+      - "3001:3000"
+    volumes:
+      - avyora_data:/app/data
+    depends_on:
+      db:
+        condition: service_healthy
+      migrate:
+        condition: service_completed_successfully
+
+  logistics:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        AVYORA_APP: logistics
+        NEXT_PUBLIC_STOREFRONT_ORIGIN: ${NEXT_PUBLIC_STOREFRONT_ORIGIN:-http://localhost:3000}
+        NEXT_PUBLIC_ADMIN_ORIGIN: ${NEXT_PUBLIC_ADMIN_ORIGIN:-http://localhost:3001}
+        NEXT_PUBLIC_LOGISTICS_ORIGIN: ${NEXT_PUBLIC_LOGISTICS_ORIGIN:-http://localhost:3002}
+        NEXT_PUBLIC_RAZORPAY_KEY_ID: ${NEXT_PUBLIC_RAZORPAY_KEY_ID:-}
+    restart: unless-stopped
+    environment:
+      AVYORA_APP: logistics
+      NEXT_PUBLIC_AVYORA_APP: logistics
+      DATABASE_URL: postgresql://${POSTGRES_USER:-avyora}:${POSTGRES_PASSWORD:-avyora}@db:5432/${POSTGRES_DB:-avyora}?schema=public
+      JWT_SECRET: ${JWT_SECRET:?Set JWT_SECRET in .env to a strong unique secret (32+ chars)}
+      JWT_REFRESH_SECRET: ${JWT_REFRESH_SECRET:?Set JWT_REFRESH_SECRET in .env to a different strong secret (32+ chars)}
+      AUTH_COOKIE_DOMAIN: ${AUTH_COOKIE_DOMAIN:-}
+      AUTH_COOKIE_SECURE: ${AUTH_COOKIE_SECURE:-}
+      ALLOW_LEGACY_COMMERCE_WRITE: ${ALLOW_LEGACY_COMMERCE_WRITE:-false}
+      NEXT_PUBLIC_ALLOW_DEMO_STAFF_LOGIN: "false"
+      POSTGRES_HOST: db
+      POSTGRES_USER: ${POSTGRES_USER:-avyora}
+      POSTGRES_DB: ${POSTGRES_DB:-avyora}
+      NEXT_PUBLIC_STOREFRONT_ORIGIN: ${NEXT_PUBLIC_STOREFRONT_ORIGIN:-http://localhost:3000}
+      NEXT_PUBLIC_ADMIN_ORIGIN: ${NEXT_PUBLIC_ADMIN_ORIGIN:-http://localhost:3001}
+      NEXT_PUBLIC_LOGISTICS_ORIGIN: ${NEXT_PUBLIC_LOGISTICS_ORIGIN:-http://localhost:3002}
+    ports:
+      - "3002:3000"
+    volumes:
+      - avyora_data:/app/data
+    depends_on:
+      db:
+        condition: service_healthy
+      migrate:
+        condition: service_completed_successfully
+
+  # Optional one-shot backup sidecar: docker compose run --rm backup
+  backup:
+    image: postgres:16-alpine
+    profiles: ["ops"]
+    environment:
+      POSTGRES_HOST: db
+      POSTGRES_USER: ${POSTGRES_USER:-avyora}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-avyora}
+      POSTGRES_DB: ${POSTGRES_DB:-avyora}
+      BACKUP_DIR: /backups
+      DATA_DIR: /data
+      KEEP_DAYS: ${BACKUP_KEEP_DAYS:-14}
+    volumes:
+      - ./backups:/backups
+      - avyora_data:/data:ro
+      - ./scripts/backup.sh:/backup.sh:ro
+    entrypoint: ["/bin/sh", "/backup.sh"]
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  avyora_pg:
+  avyora_data:

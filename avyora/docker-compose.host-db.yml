@@ -1,0 +1,11 @@
+# Optional overlay: publish Postgres to the host loopback only (never 0.0.0.0).
+# Use for local Prisma Studio / GUI tools against Compose Postgres.
+#
+#   docker compose -f docker-compose.yml -f docker-compose.host-db.yml up -d
+#
+# App containers still use DATABASE_URL …@db:5432… (unchanged).
+
+services:
+  db:
+    ports:
+      - "127.0.0.1:${POSTGRES_PORT:-5432}:5432"

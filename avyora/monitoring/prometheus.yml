@@ -1,0 +1,27 @@
+# Optional local Prometheus scrape config for /api/metrics on all portals.
+# Start with: docker run --rm -p 9090:9090 -v ${PWD}/monitoring/prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus
+
+global:
+  scrape_interval: 30s
+
+scrape_configs:
+  - job_name: avyora-store
+    metrics_path: /api/metrics
+    static_configs:
+      - targets: ["host.docker.internal:3000"]
+        labels:
+          portal: store
+
+  - job_name: avyora-admin
+    metrics_path: /api/metrics
+    static_configs:
+      - targets: ["host.docker.internal:3001"]
+        labels:
+          portal: admin
+
+  - job_name: avyora-logistics
+    metrics_path: /api/metrics
+    static_configs:
+      - targets: ["host.docker.internal:3002"]
+        labels:
+          portal: logistics

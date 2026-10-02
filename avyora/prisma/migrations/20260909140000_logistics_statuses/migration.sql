@@ -1,0 +1,5 @@
+-- AlterEnum: logistics exception + in-transit statuses
+ALTER TYPE "OrderStatus" ADD VALUE IF NOT EXISTS 'IN_TRANSIT';
+ALTER TYPE "OrderStatus" ADD VALUE IF NOT EXISTS 'FAILED_DELIVERY';
+ALTER TYPE "OrderStatus" ADD VALUE IF NOT EXISTS 'RETURN_PICKUP';
+ALTER TYPE "OrderStatus" ADD VALUE IF NOT EXISTS 'RTO';
